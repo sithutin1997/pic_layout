@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: auto; */
+    /* justify-content: space-evenly; */
+    /* align-content: center; */
+    /* align-items: flex-end; */
+    gap: 2px 4px;
+    padding: 0px 4%;
+}
+
+
+.container > img {
+    height: 150px;
+    object-fit: cover;
+    flex: 1 0 auto;
+    /* vertical-align: bottom; */
+}
